@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [SCHED-69] Unable to schedule 'load' operation ('kernel_load_2', Lab_10_Conv2d/core.cpp:54) on array 'kernel' due to limited memory ports." projectName="Lab_10_Conv2d" solutionName="solution1" date="2017-10-02T16:57:52.531+0500" type="Warning"/>
+        <logs message="@W [SCHED-68] Unable to enforce a carried dependency constraint (II = 1, distance = 1)&#xD;&#xA;   between 'load' operation ('lineBuff_val_0_load', Lab_10_Conv2d/core.cpp:51) on array 'lineBuff.val[0]', Lab_10_Conv2d/core.cpp:15 and 'store' operation (C:/Xilinx/Vivado_HLS/2015.4/common/technology/autopilot/hls/hls_video_mem.h:283->Lab_10_Conv2d/core.cpp:42) of variable 'lineBuff_val_1_load', C:/Xilinx/Vivado_HLS/2015.4/common/technology/autopilot/hls/hls_video_mem.h:283->Lab_10_Conv2d/core.cpp:42 on array 'lineBuff.val[0]', Lab_10_Conv2d/core.cpp:15." projectName="Lab_10_Conv2d" solutionName="solution1" date="2017-10-02T16:57:52.348+0500" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'lineBuff.val[2]' (Lab_10_Conv2d/core.cpp:15)." projectName="Lab_10_Conv2d" solutionName="solution1" date="2017-10-02T16:57:47.009+0500" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'lineBuff.val[1]' (Lab_10_Conv2d/core.cpp:15)." projectName="Lab_10_Conv2d" solutionName="solution1" date="2017-10-02T16:57:41.017+0500" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false intra dependency for variable 'lineBuff.val[0]' (Lab_10_Conv2d/core.cpp:15)." projectName="Lab_10_Conv2d" solutionName="solution1" date="2017-10-02T16:57:40.973+0500" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'lineBuff.val[2]' (Lab_10_Conv2d/core.cpp:15)." projectName="Lab_10_Conv2d" solutionName="solution1" date="2017-10-02T16:57:40.902+0500" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'lineBuff.val[1]' (Lab_10_Conv2d/core.cpp:15)." projectName="Lab_10_Conv2d" solutionName="solution1" date="2017-10-02T16:57:40.865+0500" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'lineBuff.val[0]' (Lab_10_Conv2d/core.cpp:15)." projectName="Lab_10_Conv2d" solutionName="solution1" date="2017-10-02T16:57:40.320+0500" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

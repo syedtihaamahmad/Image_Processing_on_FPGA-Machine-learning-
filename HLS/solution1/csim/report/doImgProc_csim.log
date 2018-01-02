@@ -1,0 +1,13 @@
+   Compiling ../../../test_core.cpp in debug mode
+   Compiling ../../../TestUtils.cpp in debug mode
+   Compiling ../../../core.cpp in debug mode
+   Generating csim.exe
+Load image C:\Users\tihaam\Desktop\vivadoProj\Lab_10_Conv2d\img.png
+Image Rows:440 Cols:696
+Calling Reference function
+Reference function ended
+Saving image Ref
+Calling Core function
+Core function ended
+Saving image
+@I [SIM-1] CSim done with 0 errors.

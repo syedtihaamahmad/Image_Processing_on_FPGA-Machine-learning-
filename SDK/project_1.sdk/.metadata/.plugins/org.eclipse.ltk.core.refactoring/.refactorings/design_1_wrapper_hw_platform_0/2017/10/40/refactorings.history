@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;design_1_wrapper_hw_platform_0/drivers/doImgProc_v1_0/src/load_images&apos; to &apos;load_images.c&apos;" description="Rename resource &apos;load_images&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="drivers/doImgProc_v1_0/src/load_images" name="load_images.c" stamp="1507019043481" updateReferences="true"/>
+</session>
